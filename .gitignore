@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+/15th-react-6.code-workspace
+/15th-react-6.mov
