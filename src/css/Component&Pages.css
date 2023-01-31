@@ -81,12 +81,43 @@ td[title*="Edit"] > a {
 form {
 	width: 90%;
 	margin: 4rem auto 0 auto;
-	width: 90%;
-	margin: 4rem auto 0 auto;
 	padding: 2rem;
 	border: 2px solid;
 	border-radius: 15px;
 	box-sizing: border-box;
-	height: fit-content;
-	padding-left: 3rem;
+	height: 14rem;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.input-flex {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 60%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.input-flex2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.form-btn-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.form-btn {
+	border-radius: 15px;
 }
